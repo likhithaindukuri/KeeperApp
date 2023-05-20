@@ -1,9 +1,13 @@
 import React from "react"
 import ReactDom from "react-dom"
+import App from "./components/App"
+import Header from "./components/Header"
 
-ReactDom.render(<h1>Hello World!!</h1>,document.getElementById("root")); 
+ReactDom.render(<App/>,document.getElementById("root")); 
+ReactDom.render(<Header/>,document.getElementById("root")); 
 
-//2. Create a App.jsx component.
+
+
 //3. Create a Header.jsx component that renders a <header> element
 //to show the Keeper App name in an <h1>.
 //4. Create a Footer.jsx component that renders a <footer> element
